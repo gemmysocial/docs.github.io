@@ -1,9 +1,9 @@
 <h1>Content</h1>
 <ul>
   <li>
-    <a href="privacy-policy.md">Privacy Policy</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
   </li>
   <li>
-    <a href="terms-of-service.md">Terms Of Service</a>
+    <a href="terms-of-service.html">Terms Of Service</a>
   </li>
 </ul>
