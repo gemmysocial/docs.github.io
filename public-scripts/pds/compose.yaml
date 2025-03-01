@@ -17,7 +17,10 @@ services:
         target: /etc/caddy
   pds:
     container_name: pds
-    image: ghcr.io/bluesky-social/pds:0.4
+#    image: ghcr.io/bluesky-social/pds:0.4
+#    original image redirect: https://github.com/bluesky-social/pds/pkgs/container/pds/312660075?tag=sha-9ac9461ce2e4ed7ac66889bb1017662a2f846c98
+#    gemmy image deployment: docker pull ghcr.io/gemmysocial/atproto:sha-c6ed1ee
+    image: ghcr.io/gemmysocial/atproto:sha-c6ed1ee
     network_mode: host
     restart: unless-stopped
     volumes:
